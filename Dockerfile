@@ -6,6 +6,7 @@ WORKDIR /app
 
 VOLUME ["/app"]
 
+RUN npm install -g npm gulp
 RUN npm install
 
 CMD ["npm", "start"]
