@@ -6,7 +6,7 @@ WORKDIR /app
 
 VOLUME ["/app"]
 
-RUN npm install -g npm gulp
-RUN npm install
+RUN npm install -g npm yarn gulp
+RUN yarn
 
 CMD ["npm", "start"]
