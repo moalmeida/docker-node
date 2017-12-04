@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:8
 MAINTAINER "moalmeida" <moalmeida@koinosystems.com>
 
 RUN mkdir -p /app
